@@ -210,11 +210,11 @@ function handleSubmit(e) {
   const pickup      = document.getElementById('pickup').value;
 
   const message =
-    `🏍 *New Booking – Patel Tour And Travel*\n\n` +
+    `🔖 *New Booking – Patel Tour And Travel*\n\n` +
     `👤 *Name:* ${name}\n` +
     `📞 *Phone:* ${phone}\n` +
-    `🚗 *Vehicle:* ${vehicleText}\n` +
-    `📅 *Pickup Date:* ${pickup}\n\n` +
+    `💼 *Service:* ${vehicleText}\n` +
+    `📅 *Date:* ${pickup}\n\n` +
     `📍 Sahastradhara Road, Near IT Park, Dehradun`;
 
   const encoded = encodeURIComponent(message);
